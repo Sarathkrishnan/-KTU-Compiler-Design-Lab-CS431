@@ -50,5 +50,22 @@ void main(){
 			j++;
 			q[j][2]=t+3;
 		}
-		
+		else if ((c[i])&&(c[i+1]++'+')){
+			q[j][2]=((j+1)*10)+(j+3);
+			j++;
+			q[j][0]=j+1;
+			j++;
+			q[j][2]+((j-1)*10)+(j+1);
+		}
+		i++;
+	}
+	printf("\n transaction function");
+	i=0;
+	printf("\n %d is the initial state",i+1);
+	printf("\n %d is the final state",j+1);
+	for(i=0;i<j;j++){
+		if(q[i][0]!=0)
+		printf("\n\t q[%d,%c]=%d",i,c[2],q[1][1]);
+		if(q[[i][2]!=0)&&
+	
 			
